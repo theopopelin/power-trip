@@ -16,7 +16,6 @@ services:
       NEXT_TELEMETRY_DISABLED: "1"
       RICKROLL_URL: ${RICKROLL_URL}
       DISCORD_WEBHOOK_URL: ${DISCORD_WEBHOOK_URL}
-      HMAC_SECRET: ${HMAC_SECRET}
 
 volumes:
   node_modules:
